@@ -63,12 +63,12 @@ function App() {
         </p>
         <div className="LabelPair">
           <label>Avatar ID </label>
-          <input className="InputField2" placeholder='DrLin_A_studio_20240609' value={avatarId} onChange={(v)=>setAvatarId(v.target.value)}/>
+          <input className="InputField2" placeholder='Avatar ID' value={avatarId} onChange={(v)=>setAvatarId(v.target.value)}/>
           
         </div>
         <div className="LabelPair">
           <label>Voice ID</label>
-          <input className="InputField2" placeholder='414283c760f241cd8313a5d8121e997a' value={voiceId} onChange={(v)=>setVoiceId(v.target.value)}/>
+          <input className="InputField2" placeholder='Voice ID' value={voiceId} onChange={(v)=>setVoiceId(v.target.value)}/>
         </div>
         <div className="Actions">
           <input className="InputField" placeholder='Type something for the avatar to say' value={text} onChange={(v)=>setText(v.target.value)}/>
