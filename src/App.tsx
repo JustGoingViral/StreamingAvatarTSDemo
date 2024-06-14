@@ -9,7 +9,7 @@ function App() {
   const [stream, setStream] = useState<MediaStream> ();
   const [debug, setDebug] = useState<string> ();
   const avatar = useRef(new StreamingAvatarApi(
-      new Configuration({accessToken: 'OTQzYjNmNWNmN2EyNGEwODlhYzcyOWI0ZjU1ZmM0MjgtMTcxODMxOTA2NQ=='})
+      new Configuration({accessToken: 'MzE3NjZmYjliYTY0NDlkNGExMmJlY2VlNDNiMjQyNDktMTcxODM0NzQwMg=='})
     ));
 
   const [text, setText] = useState<string>("");
